@@ -35,8 +35,8 @@ def sort_anchor_with_iou(boxes, anchors):
     iou, indices = iou.max(-1) # iou shape: (num_anchors,), the elements in indices are index of gt box.
     return iou, indices
 
-sort_anchor_with_iou(boxes, anchors) # [0.2174, 0.0733, 0.4286], [0, 1, 1], it means that the first anchor has the max iou 0.2174 with 0-th gt box.
-
+sort_anchor_with_iou(boxes, anchors) # [0.2174, 0.0733, 0.4286], [0, 1, 1], 
+# it means that the first anchor has the max iou 0.2174 with 0-th gt box.
 ```
 
 Contributing
