@@ -1,5 +1,5 @@
 # Pytorch Object Detection (PTOD) - 100
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zihaozhihao/ptod-100/master?filepath=https%3A%2F%2Fgithub.com%2Fzihaozhihao%2Fptod-100%2Fblob%2Fmaster%2F100_pytorch_exercises.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zihaozhihao/ptod-100/master)
 
 Overview
 --------
@@ -11,7 +11,9 @@ As a newie with pytorch (I have always worked with tensorflow and keras in the p
 Version
 -------
 pytorch: 1.2.0
+
 numpy: 1.17.0
+
 matplotlib: 3.1.1
 
 Example
